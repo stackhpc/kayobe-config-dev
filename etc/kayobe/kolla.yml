@@ -298,18 +298,18 @@
 #kolla_enable_central_logging:
 #kolla_enable_ceph_rgw:
 #kolla_enable_ceph_rgw_loadbalancer:
-#kolla_enable_cinder:
+kolla_enable_cinder: true
 #kolla_enable_cinder_backend_iscsi:
 #kolla_enable_cinder_backend_lightbits:
 #kolla_enable_cinder_backend_lvm:
-#kolla_enable_cinder_backend_nfs:
+kolla_enable_cinder_backend_nfs: true
 #kolla_enable_cinder_backend_pure_fc:
 #kolla_enable_cinder_backend_pure_iscsi:
 #kolla_enable_cinder_backend_pure_nvme_tcp:
 #kolla_enable_cinder_backend_pure_roce:
 #kolla_enable_cinder_backend_quobyte:
 #kolla_enable_cinder_backend_vast:
-#kolla_enable_cinder_backup:
+kolla_enable_cinder_backup: false
 #kolla_enable_cinder_horizon_policy_file:
 #kolla_enable_cloudkitty:
 #kolla_enable_collectd:
@@ -332,7 +332,7 @@
 #kolla_enable_hacluster:
 #kolla_enable_haproxy:
 #kolla_enable_haproxy_memcached:
-#kolla_enable_heat:
+kolla_enable_heat: false
 #kolla_enable_heat_horizon_policy_file:
 #kolla_enable_horizon:
 #kolla_enable_horizon_blazar:
@@ -406,8 +406,8 @@
 #kolla_enable_octavia:
 #kolla_enable_octavia_driver_agent:
 #kolla_enable_octavia_jobboard:
-#kolla_enable_opensearch:
-#kolla_enable_opensearch_dashboards:
+kolla_enable_opensearch: true
+kolla_enable_opensearch_dashboards: false
 #kolla_enable_opensearch_dashboards_external:
 #kolla_enable_openstack_core:
 #kolla_enable_openvswitch:
@@ -416,27 +416,27 @@
 #kolla_enable_ovn_sb_db_relay:
 #kolla_enable_ovs_dpdk:
 #kolla_enable_placement:
-#kolla_enable_prometheus:
-#kolla_enable_prometheus_alertmanager:
-#kolla_enable_prometheus_alertmanager_external:
-#kolla_enable_prometheus_blackbox_exporter:
-#kolla_enable_prometheus_cadvisor:
-#kolla_enable_prometheus_ceph_mgr_exporter:
-#kolla_enable_prometheus_elasticsearch_exporter:
-#kolla_enable_prometheus_etcd_integration:
-#kolla_enable_prometheus_fluentd_integration:
-#kolla_enable_prometheus_haproxy_exporter:
-#kolla_enable_prometheus_libvirt_exporter:
-#kolla_enable_prometheus_memcached_exporter:
-#kolla_enable_prometheus_mysqld_exporter:
-#kolla_enable_prometheus_node_exporter:
-#kolla_enable_prometheus_openstack_exporter:
-#kolla_enable_prometheus_openstack_exporter_external:
-#kolla_enable_prometheus_openstack_network_exporter:
-#kolla_enable_prometheus_proxysql_exporter:
-#kolla_enable_prometheus_rabbitmq_exporter:
-#kolla_enable_prometheus_server:
-#kolla_enable_prometheus_valkey_exporter:
+kolla_enable_prometheus: true
+kolla_enable_prometheus_alertmanager: false
+kolla_enable_prometheus_alertmanager_external: false
+kolla_enable_prometheus_blackbox_exporter: false
+kolla_enable_prometheus_cadvisor: false
+kolla_enable_prometheus_ceph_mgr_exporter: false
+kolla_enable_prometheus_elasticsearch_exporter: false
+kolla_enable_prometheus_etcd_integration: false
+kolla_enable_prometheus_fluentd_integration: false
+kolla_enable_prometheus_haproxy_exporter: false
+kolla_enable_prometheus_libvirt_exporter: false
+kolla_enable_prometheus_memcached_exporter: false
+kolla_enable_prometheus_mysqld_exporter: false
+kolla_enable_prometheus_node_exporter: false
+kolla_enable_prometheus_openstack_exporter: true
+kolla_enable_prometheus_openstack_exporter_external: false
+kolla_enable_prometheus_openstack_network_exporter: false
+kolla_enable_prometheus_proxysql_exporter: false
+kolla_enable_prometheus_rabbitmq_exporter: false
+kolla_enable_prometheus_server: true
+kolla_enable_prometheus_valkey_exporter: false
 #kolla_enable_proxysql:
 #kolla_enable_rabbitmq:
 #kolla_enable_skyline:
